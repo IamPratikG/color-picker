@@ -1,0 +1,94 @@
+.preview-container {
+  display: flex;
+  gap: 100px;
+  margin: 5px;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.color-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 325px;
+  gap: 30px;
+  border: 2px solid gray;
+  padding: 20px;
+}
+
+.preview-circle {
+  display: inline-block;
+}
+
+.palette-container {
+  padding: 20px;
+  border: 2px solid gray;
+  display: inline-block;
+}
+
+.palette-text,
+#palette-code {
+  margin-bottom: 25px;
+}
+
+.palette-text,
+.preview-text,
+#palette-code {
+  color: black;
+  font-size: 30px;
+}
+
+.color-picker {
+  padding: 10px;
+  margin-left: 100px;
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.color-picker .svg-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #ddd;
+  border-radius: 50%;
+  box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.2);
+}
+
+.color-picker .svg-inactive:active {
+  box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.6);
+}
+
+.color-picker .svg-inactive {
+  cursor: pointer;
+  border: none;
+}
+
+.color-picker .svg-active {
+  border: 0.5px solid #333;
+  background: #999;
+  box-shadow: none;
+}
+
+.color-picker .svg-active:active {
+  border: 1px solid #333;
+  box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.6);
+}
+
+.pick-color-text {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.canvas-container {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid gray;
+  display: inline-block;
+}
+
+#zoom {
+  box-sizing: border-box;
+  border-radius: 50%;
+}
