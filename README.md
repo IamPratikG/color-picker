@@ -9,7 +9,6 @@ To get started with this project, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone <repository-url>
-   cd color-picker
    ```
 
 2. **Install dependencies:**
