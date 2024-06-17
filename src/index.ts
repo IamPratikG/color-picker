@@ -1,6 +1,3 @@
-// Import the config
-// import { CANVAS_WIDTH, CANVAS_HEIGHT } from "config";
-
 // Picker State Management
 
 let isPickerSelected = false;
